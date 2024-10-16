@@ -1,0 +1,129 @@
+.freebies6 {
+    display: flex;
+    background: #dad7d5;
+  margin-top: 3em;
+  margin-bottom: 4em;
+  }
+  
+  .freebies-copy6 {
+    flex: 1;
+    margin-right: 5em;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .copy-header6 {
+    font-family: "Moderustic", sans-serif;
+    font-size: 50px;
+    margin: .5em 0em;
+  }
+  
+  .copy-title6 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0em 0em;
+  }
+  
+  .freebies-copy-text6 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0em 0em;
+    margin-bottom: 1em;
+    text-align: left;
+  }
+  
+  .freebies-image6 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .freebies-image6 img {
+    height: 35em;
+  }
+  
+  .freebie-container6 {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .input-field {
+    border: .5 solid #616161;
+    outline: none;
+    color: #616161;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 40em;
+    height: 3em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    border-radius: .5em;
+  }
+  
+  .button-field {
+    width: 40em;
+    margin: 0em;
+    height: 3em;
+    border-radius: .5em;
+    
+  }
+  
+  
+  @media (max-width: 1000px) {
+    .freebies6 {
+      padding-top: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .freebies-copy6 {
+      margin-top: .5em;
+      margin-right: 0em;
+      flex-direction: column;
+      align-items: center;
+    }
+    .copy-header6 {
+      font-size: 30px;
+      margin: .5em 0em;
+    }
+    .copy-title6 {
+      font-size: 16px;
+    }
+    .freebies-copy-text6 {
+      font-size: 16px;
+      margin-bottom: 1em;
+      text-align: center;
+      padding: 0em 3em;
+    }
+
+    .freebies-image6 img {
+      height: 25em;
+    }
+
+    .freebie-container6 {
+    
+      justify-content: center;
+    }
+    .input-field{
+      width: 30em;
+      margin-left: 0em;
+      margin-bottom: 1em;
+    }
+    .button-field {
+      width: 10em;
+      margin-left: 0em;
+      height: 50px;
+      font-size: 13px;
+   
+    }
+    
+  
+  
+  }

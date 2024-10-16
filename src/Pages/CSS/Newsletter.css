@@ -1,0 +1,100 @@
+.newsletter-box {
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.newsletter-box img {
+  height: auto;
+  width: 100vw;
+}
+
+.glassbox {
+  position: absolute;
+  height: 100vh;
+  top: 35px;
+  left: 55%;
+}
+
+.glassbox-container {
+  height: 90vh;
+  width: 38vw;
+  /* background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(114, 114, 114, 0.2);
+  backdrop-filter: blur(8.5px);
+  border: 1px solid rgba(255, 255, 255, 0.063);
+  -webkit-backdrop-filter: blur(8.5px); */
+  backdrop-filter: blur(8px) saturate(168%);
+  -webkit-backdrop-filter: blur(8px) saturate(168%);
+  background-color: rgba(58, 58, 58, 0.54);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.glassbox-container h3 {
+    font-size: 2.2em;
+  font-family: "Plaster", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+.glassbox-container-copy {
+    margin: 2em 2em 0em;
+    line-height: 1.9em;
+    font-size: 1.3em;
+  font-family: "Poppins";
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}
+
+.small-copy {
+    margin:2em 2em;
+    line-height: 1.9em;
+    font-size: .8em;
+  font-family: "Poppins";
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}
+
+.glassbox-container button {
+    width: 15em;
+    border-radius: 1em;
+    border: 2px solid darkseagreen;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 1.2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0.5em 1em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.glassbox-container button:hover {
+    color: black;
+    background-color: darkseagreen;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons-container {
+  padding: 6px 10px;
+}
+
+.glassbox-container img {
+  padding: 6px 15px;
+  width: 20px;
+}
+
+
+

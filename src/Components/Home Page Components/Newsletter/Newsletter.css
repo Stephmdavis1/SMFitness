@@ -1,0 +1,102 @@
+.newsletter-banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  background: #dad7d5;
+  gap: 20px;
+ 
+}
+
+.newsletter-banner h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Satisfy", cursive;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+.newsletter-banner p {
+  color: #454545;
+  font-size: 19px;
+  font-weight: 200;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.input-container {
+  width: 60em;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+ 
+}
+
+.input-field1 {
+  border: 0.5 solid #616161;
+  outline: none;
+  color: #616161;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 20em;
+  height: 3em;
+  margin-bottom: .5em;
+  border-radius: 0.5em;
+}
+
+.button-field1 {
+  width: 10em;
+  margin: 0em;
+  height: 3em;
+  border-radius: 0.5em;
+}
+
+@media (max-width: 1000px) {
+  .newsletter-banner {
+    height: auto;
+    padding-top: 1em;
+  }
+  .newsletter-banner h1 {
+    font-size: 25px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  .newsletter-banner p {
+    font-size: 14px;
+ 
+  }
+
+  .input-container {
+    width: 100vw;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    gap:5px;
+    flex-direction: row;
+  }
+  
+  .input-field1 {
+    border: 0.5 solid #616161;
+    outline: none;
+    color: #616161;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 15em;
+    height: 3em;
+    margin-bottom: .5em;
+    border-radius: 0.5em;
+  }
+  
+  .button-field1 {
+    width: 6em;
+    margin: 0em;
+    height: 2.5em;
+    margin-bottom: .5em;
+  }
+}

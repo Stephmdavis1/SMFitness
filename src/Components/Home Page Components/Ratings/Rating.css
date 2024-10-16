@@ -1,0 +1,34 @@
+.rating {
+    border-radius: 1em;
+    padding: 2em 1.5em;
+    width: 300px;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0,0,0,.3) 0px 0px 60px -30px, rgba(10,37,64,.35) 0px -2px 6px 0px inset;
+}
+
+.rating-left img {
+    width: auto;
+    height: 20em;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.rating-right h6 {
+    margin: .5em 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.125em;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+}
+
+.review-block {
+    color: black;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}

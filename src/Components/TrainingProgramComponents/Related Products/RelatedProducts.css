@@ -1,0 +1,80 @@
+.related {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6em;
+    margin-bottom: 0;
+
+}
+
+.related h1 {
+    color: #171717;
+    font-size: 3em;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.related hr {
+    width: 12.5em;
+    height:.4em;
+    border-radius: .6em;
+    background-color: darkseagreen;
+}
+
+.relatedproducts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .6em;
+    height: 60vh;
+    overflow: hidden;
+    overflow-x: scroll;
+    transform: translate(0%);
+}
+
+.relatedproducts-item {
+    margin-top: 3em;
+    display: flex;
+    gap: 1em;
+}
+
+
+.relatedproducts::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .relatedproducts::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+  }
+  
+  .relatedproducts::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .relatedproducts::-webkit-scrollbar:horizontal {
+    height: 0;
+    width: 0;
+    display: none;
+  }
+  
+  .relatedproducts::-webkit-scrollbar-thumb:horizontal {
+    display: none;
+  }
+  
+
+
+  @media (max-width: 700px) {
+    .related h1 {
+      font-size: 2em;
+      margin-bottom: .5em;
+  }
+
+
+  .relatedproducts-item {
+    display: flex;
+    gap: 0;
+}
+
+}

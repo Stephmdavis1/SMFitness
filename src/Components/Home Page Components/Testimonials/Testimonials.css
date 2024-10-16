@@ -1,0 +1,107 @@
+.rating-whole1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4em;
+  }
+  
+  .ratings1 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: grid;
+    width: 100vw;
+  }
+
+  .ratings-top1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  .ratings-top1 h4 {
+    text-align: center;
+    font-weight: 300;
+    font-family: "Moderustic", sans-serif;
+    font-style: normal;
+    font-size: 2em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+  }
+
+  .ratings-top1 p {
+    font-weight: 200;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    margin-bottom: 2em;
+   
+  }
+  
+  .ratings-top1 hr {
+    width: 12.5em;
+    height: 0.3em;
+    border-radius: 0.3em;
+    background: darkseagreen;
+    margin-bottom: 2em;
+  }
+  
+  .ratings-bottom1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 2.5em;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    justify-content: center;
+  }
+
+  
+  .rating1s::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .ratings-bottom1::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+  }
+  
+  .ratings-bottom1::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .ratings-bottom1::-webkit-scrollbar:horizontal {
+    height: 0;
+    width: 0;
+    display: none;
+  }
+  
+  .ratings-bottom1::-webkit-scrollbar-thumb:horizontal {
+    display: none;
+  }
+  
+
+  @media (max-width: 1000px) {
+
+    .rating-whole1 {
+        margin: 0em;
+        margin-bottom: 3em;
+    }
+
+    .ratings-bottom1 {
+        gap: 1.5em;
+    }
+
+  }
+
+  @media (max-width: 700px) {
+    .ratings-top1 h4 {
+        font-size: 1.5em;
+      }
+      .ratings-top1 p {
+        font-size: .8em;
+      }
+
+  }

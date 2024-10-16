@@ -1,0 +1,36 @@
+.award-bar {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  gap: 3%;
+ 
+}
+
+
+.award-pins {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+.award-pins img {
+  display: flex;
+  width: 18%;
+ 
+}
+
+
+
+@media (max-width: 700px) {
+  .award-pins {
+    display: flex;
+    justify-content: center;
+    gap: 0%;
+  }
+  .award-pins img {
+    display: flex;
+    width:30%;
+   
+  }
+
+}

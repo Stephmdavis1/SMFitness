@@ -1,0 +1,137 @@
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Plaster&family=Reenie+Beanie&family=Vast+Shadow&display=swap');
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.vast-shadow-regular {
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+font-family: "Khand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+.plaster-regular {
+    font-family: "Plaster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+
+
+
+  /* <div className="hero">
+    <div className="hero-section">
+    <div className="hero-image">
+
+   {/* <Plx className="grass" parallaxData={[
+            {
+                start: 0,
+                end: 80,
+                duration: ".duration-element",
+                easing: 'ease-out',
+                properties: [
+                    {
+                        startValue: 1,
+                        endValue: 0,
+                        property: "opacity",
+                      },
+                    {
+                        startValue: 1,
+                        endValue: 6.3,
+                        property: 'scale',
+                    },
+                ]
+            }
+        ]}
+        style={{
+            position: 'fixed',
+            left: 0,
+            top: 100,
+            width: '100%',
+            zIndex: 100
+        }}
+        >
+        <img src={foreground} alt="foreground" />
+        </Plx>
+        /* <Plx parallaxData={[
+          {
+              start: 0,
+              end: 400,
+              duration: ".duration-element",
+              easing: 'ease-in',
+              properties: [
+                  {
+                      startValue: 1,
+                      endValue: 1.4,
+                      property: 'scale'
+                  },
+              ]
+          },
+          {
+              start: 350,
+              end: 450,
+              duration: ".duration-element",
+              easing: 'ease-out',
+              properties: [
+                  {
+                      startValue: 1,
+                      endValue: 0,
+                      property: "opacity",
+                    },
+              ]
+          }
+      ]}
+      style={{
+          position: 'fixed',
+          left: 0,
+          top: 100,
+          width: "100%",
+      }}
+      >
+      <img style={{width: '100%'}} src={hero_image} alt="background" />
+      </Plx>
+      <Plx parallaxData={[
+          {
+              start: 0,
+              end: 100,
+              easing: 'ease-in',
+              properties: [
+                  {
+                      startValue: 0,
+                      endValue: 1,
+                      property: 'opacity'
+                  }
+              ]
+          },
+          {
+              start: 350,
+              end: 450,
+              easing: 'ease-out',
+              properties: [
+                  {
+                      startValue: 1,
+                      endValue: 0,
+                      property: "opacity",
+                    },
+              ]
+          }
+      ]}
+      style={{
+          position: 'fixed',
+          left: 0,
+          top: 100,
+          width: "100%",
+      }}
+      >
+      <img style={{width: '100%'}} src={title_text} alt="background" />
+      </Plx> 
+      </div>
+      </div>
+</div> */

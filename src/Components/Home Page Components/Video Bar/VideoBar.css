@@ -1,0 +1,36 @@
+.video-bar {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+
+.video-bar2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+.video-text h3 {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+   
+}
+
+.video-text p {
+    font-size: 26px;
+    text-align: center;
+    color: black;
+  
+}
+
+@media (max-width: 700px) {
+    .video-text h3 {
+        font-size: 26px;
+    }
+}

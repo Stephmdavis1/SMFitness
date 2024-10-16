@@ -1,0 +1,38 @@
+.image-box {
+    overflow: hidden;
+  width: auto;
+  position: relative;
+}
+
+.scroll-image {
+  position: absolute;
+  height: 70vh;
+  width: 100vw;
+}
+
+.image-text h3 {
+  font-size: 5em;
+  font-family: "Plaster", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  color: #B18e7e;
+  margin-left: 10em;
+  margin-bottom: .3em;
+  margin-top: 2em;
+}
+
+.image-text button {
+  width: auto;
+  height: auto;
+  border-radius: 1em;
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 0.5em 2em;
+  margin-left: 44%;
+  margin-top: 5%;
+}

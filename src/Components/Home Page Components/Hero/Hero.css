@@ -1,0 +1,45 @@
+.hero-section {
+  position: relative;
+  text-align: center;
+  padding-top: 25px;
+}
+.hero-image {
+  background-position: 50% 50%;
+  height: 100vh;
+  width: auto;
+  top: 0;
+  left: 50;
+  z-index: 1;
+}
+
+.hero-image img {
+  object-fit: cover;
+  width: 100vw;
+}
+
+.hero-text {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 34%;
+  right: 0;
+}
+
+.hero-text p {
+  letter-spacing: 0.25rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 19px;
+  color: #ba5d53;
+}
+
+.hero-text h2 {
+    font-family: "Khand", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 0;
+    
+}
+

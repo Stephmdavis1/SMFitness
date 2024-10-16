@@ -1,0 +1,18 @@
+
+
+.banner {
+    background-color: rgb(192, 192, 192);
+    height: 30vh;
+}
+
+.banner img{
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+   transform: translate(50%, -16%);
+}
+
+.banner:hover {
+    transform: scale(1.03);
+    transition: 0.6s;
+}
