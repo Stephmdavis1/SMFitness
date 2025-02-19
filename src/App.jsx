@@ -13,11 +13,20 @@ import Privacy from "./Pages/Privacy";
 import Success from "./Pages/Success";
 import Cancel from "./Pages/Cancel";
 import TrainingProgramsContextProvider from "./Context/TrainingProgramsContext";
+import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 
 function App() {
+  const initialOptions = {
+    clientId: "tAZRjouiq4mRHFOgkvRLi7fPBXdreti4OCDLd8uqX71wf_v4mWRliv41dU2d5kjMRW3yM6luWgZJQYcS8est",
+    currency: "USD",
+    intent: "capture",
+};
+
+
   return (
     <>
+    <PayPalScriptProvider options={initialOptions}>
     <TrainingProgramsContextProvider>
       <BrowserRouter>
         <Routes>
@@ -39,6 +48,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       </TrainingProgramsContextProvider>
+      </PayPalScriptProvider>
     </>
   );
 }

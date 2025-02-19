@@ -39,7 +39,7 @@ export default function TrainingPrograms(props) {
       <div className="training-programs">
         <div className="training-indexSort">
           <p>
-            <span>Showing 1-10</span> out of 19
+            {/* <span>Showing 1-10</span> out of 19 */}
           </p>
           <div className="training-sort">
           {/* Sort by <img src={dropdown_icon} alt="" /> */}

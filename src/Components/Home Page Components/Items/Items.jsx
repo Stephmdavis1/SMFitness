@@ -5,7 +5,7 @@ export default function Items(props) {
     <>
       <div className="item">
         <img className="individual-image" src={props.image} alt="" />
-        <p>{props.name}</p>
+        <p className="props-name">{props.name}</p>
         <div className="items-prices">
           <div className="item-price-new">${props.new_price}</div>
         </div>
