@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
 import all_product from "../../../Assets/all_product";
+import { PayPalButtons } from "@paypal/react-paypal-js";
 
 export default function ProductDisplay(props) {
   const { product } = props;
@@ -48,6 +49,12 @@ export default function ProductDisplay(props) {
               {product.description}
             </div>
           </div>
+
+
+          <PayPalButtons />
+
+
+
           <button onClick={notify}>
             Add to Cart
           </button>

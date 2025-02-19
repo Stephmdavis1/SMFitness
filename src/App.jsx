@@ -22,6 +22,12 @@ function App() {
     currency: "USD",
     intent: "capture",
 };
+const styles = {
+shape: "pill",
+layout: "horizontal",
+color: "white",
+
+ };
 
 
   return (
