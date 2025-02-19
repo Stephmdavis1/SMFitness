@@ -56,6 +56,7 @@ h3 {
   text-align: center;
   line-height: 1.5;
   height: 8em;
+  margin: 0 5em;
 }
 
 .one-copy button,
@@ -129,7 +130,6 @@ h3 {
 @media (max-width: 1000px) {
   .projects-container {
     display: grid;
-    width: auto;
     width: 100vw;
     grid-template-columns: 1fr;
     margin-left: 0em;
@@ -191,5 +191,64 @@ h3 {
     left: 50%;
     -ms-transform: translate(-50%, -100%);
     transform: translate(-50%, 140%);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-copy {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 2em 5em 1em 5em;
+  }
+  .one-copy button,
+  .two-copy button,
+  .three-copy button,
+  .four-copy button {
+    width: 12em;
+    border-radius: 1em;
+    border: none;
+    color: black;
+    font-size: 0.8em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0.5em 0.5em;
+    margin-top: 2em;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    -ms-transform: translate(-50%, -100%);
+    transform: translate(-50%, 180%);
+  }
+
+  .one-copy button:nth-child(1),.four-copy button:nth-child(1){
+    transform: translate(-50%, 210%);
+  }
+}
+
+@media (max-width: 450px){
+  .one-copy button:nth-child(1),.four-copy button:nth-child(1){
+    transform: translate(-50%, 350%);
+  }
+  .one-copy button,
+  .two-copy button,
+  .three-copy button,
+  .four-copy button {
+    transform: translate(-50%, 280%);
+  }
+  .projects-one,
+  .projects-two,
+  .projects-three,
+  .projects-four {
+    margin: 1em 0;
+  }
+  h3 {
+    margin: 1em 1em .5em 1em;
   }
 }
