@@ -51,13 +51,14 @@
   font-optical-sizing: auto;
   font-style: normal;
   text-align: left;
-  margin-bottom: 0em;
+  margin-bottom:.5em;
 }
 
 .text-about-left {
-  flex: 1;
+  flex: 1.5;
   display: flex;
   flex-direction: column;
+  
 }
 
 .text-box {
@@ -66,9 +67,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
  text-align: left;
- margin-left: 0;
- margin-bottom: .7em;
-
+margin: .5em 4em 1em 0;
 }
 
 
