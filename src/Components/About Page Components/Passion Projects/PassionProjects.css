@@ -1,8 +1,6 @@
 .projects-container {
   display: grid;
-  width: fit-content;
-  width: 100vw;
-  grid-template-columns: 30em 1fr;
+  grid-template-columns: 1fr 1fr;
   overflow: hidden;
 }
 

@@ -30,7 +30,7 @@ export default function PassionProjects() {
             <div className="two-copy">
               <h5>YouTube Channel</h5>
               <p className="text-copy">
-                I record follow along with workouts that aim to make training
+                I record follow along workouts that aim to make training
                 accessible for everyone. Whether you are a complete beginner or
                 a seasoned athlete, my aim is to unite people through movement.
               </p>
