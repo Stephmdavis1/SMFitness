@@ -17,16 +17,11 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 
 function App() {
-  const initialOptions = {
-    clientId: "AZRjouiq4mRHFOgkvRLi7fPBXdreti4OCDLd8uqX71wf_v4mWRliv41dU2d5kjMRW3yM6luWgZJQYcS8",
-    currency: "USD",
-    intent: "capture",
-};
 
 
   return (
     <>
-    <PayPalScriptProvider options={initialOptions}>
+    <PayPalScriptProvider options={{"client-id": process.env.REACT_APP_PAYPAL_CLIENT_ID}}>
     <TrainingProgramsContextProvider>
       <BrowserRouter>
         <Routes>

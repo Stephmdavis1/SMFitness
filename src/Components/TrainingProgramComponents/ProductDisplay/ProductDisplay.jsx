@@ -5,8 +5,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
-import all_product from "../../../Assets/all_product";
-import { PayPalButtons } from "@paypal/react-paypal-js";
+import PaypalCheckoutButton from "./Paypal/PaypalCheckoutButton";
+
 
 export default function ProductDisplay(props) {
   const { product } = props;
@@ -25,6 +25,11 @@ export default function ProductDisplay(props) {
     });
     cart.addOneToCart(product.id);
   };
+
+  const program = {
+    description: product.name,
+    price: product.new_price,
+  }
 
   return (
     <>
@@ -49,19 +54,13 @@ export default function ProductDisplay(props) {
               {product.description}
             </div>
           </div>
+          <div className="paypal-buttons">
+          <PaypalCheckoutButton program={program} />
+          </div>
 
-        <PayPalButtons 
-        style={{
-          layout: "vertical",
-          color: "white",
-          shape: "pill",
-        }}
-          />
-
-
-          <button onClick={notify}>
+          {/* <button onClick={notify}>
             Add to Cart
-          </button>
+          </button> */}
           <ToastContainer />
           <p className="productdisplay-right-category">
             <span>Category: </span>

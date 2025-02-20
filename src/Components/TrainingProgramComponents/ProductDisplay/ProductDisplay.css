@@ -60,7 +60,18 @@
   text-align: start;
   line-height: 2em;
 }
-
+.paypal-buttons {
+  width: 10em;
+  border-radius: 1em;
+  border: none;
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
 .productdisplay-right button {
   width: 10em;
   border-radius: 1em;
