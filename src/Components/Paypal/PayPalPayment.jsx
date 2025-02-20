@@ -1,3 +1,4 @@
+import { PayPalButtons } from "@paypal/react-paypal-js";
 
 
 const PayPalPayment = () => {
@@ -9,10 +10,10 @@ const PayPalPayment = () => {
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            cart: [
+            product: [
                 {
-                    sku: "YOUR-PRODUCT-STOCK-KEEPING-UNIT",
-                    quantity: "YOUR_PRODUCT_QUANTITY",
+                    description: description,
+                    price: new_price,
                 },
             ],
         }),
@@ -36,7 +37,7 @@ const PayPalPayment = () => {
 
     return (
     <>
-    <PayPalButton
+    <PayPalButtons
     createOrder={(data) => createOrder(data, actions)}
     onApprove={(data) => onApprove(data, actions)}
     />
