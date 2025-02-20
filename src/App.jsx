@@ -18,16 +18,10 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 function App() {
   const initialOptions = {
-    clientId: "tAZRjouiq4mRHFOgkvRLi7fPBXdreti4OCDLd8uqX71wf_v4mWRliv41dU2d5kjMRW3yM6luWgZJQYcS8est",
+    clientId: "AZRjouiq4mRHFOgkvRLi7fPBXdreti4OCDLd8uqX71wf_v4mWRliv41dU2d5kjMRW3yM6luWgZJQYcS8",
     currency: "USD",
     intent: "capture",
 };
-const styles = {
-shape: "pill",
-layout: "horizontal",
-color: "white",
-
- };
 
 
   return (

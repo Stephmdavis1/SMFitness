@@ -1,3 +1,4 @@
+import { PayPalButtons } from "@paypal/react-paypal-js";
 import { Link } from "react-router-dom";
 import "./TrainingItems.css";
 

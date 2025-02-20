@@ -50,9 +50,13 @@ export default function ProductDisplay(props) {
             </div>
           </div>
 
-
-          <PayPalButtons />
-
+        <PayPalButtons 
+        style={{
+          layout: "vertical",
+          color: "white",
+          shape: "pill",
+        }}
+          />
 
 
           <button onClick={notify}>
