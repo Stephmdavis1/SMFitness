@@ -54,9 +54,7 @@ export default function ProductDisplay(props) {
               {product.description}
             </div>
           </div>
-          <div className="paypal-buttons">
-          <PaypalCheckoutButton program={program} />
-          </div>
+          
 
           {/* <button onClick={notify}>
             Add to Cart
@@ -70,6 +68,10 @@ export default function ProductDisplay(props) {
             <span>Fitness Level: </span>
             {product.level}
           </p>
+          <br />
+          <div className="paypal-buttons">
+          <PaypalCheckoutButton program={program} />
+          </div>
         </div>
       </div>
     </>
